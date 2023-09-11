@@ -7,14 +7,17 @@ import (
 )
 
 func main() {
-	externalipConsensus := externalip.DefaultConsensus(nil, nil)
-	externalipIp, err := externalipConsensus.ExternalIP()
-	if err != nil {
-		errorHandler(err)
-	}
-	myIp := externalipIp.String()
+	ipVs := []uint{4, 6}
 
-	fmt.Println(myIp)
+	for _, ipV := range ipVs {
+		externalipConsensus := externalip.DefaultConsensus(nil, nil)
+		externalipConsensus.UseIPProtocol(ipV)
+		externalipIp, err := externalipConsensus.ExternalIP()
+		if err == nil {
+			myIp := externalipIp.String()
+			fmt.Println(myIp)
+		}
+	}
 }
 
 func errorHandler(err error) {
