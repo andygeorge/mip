@@ -10,12 +10,12 @@ func main() {
 	ipVs := []uint{4, 6}
 
 	for _, ipV := range ipVs {
-		externalipConsensus := externalip.DefaultConsensus(nil, nil)
-		externalipConsensus.UseIPProtocol(ipV)
-		externalipIp, err := externalipConsensus.ExternalIP()
+		c := externalip.DefaultConsensus(nil, nil)
+		c.UseIPProtocol(ipV)
+		ex, err := c.ExternalIP()
 		if err == nil {
-			myIp := externalipIp.String()
-			fmt.Println(myIp)
+			ip := ex.String()
+			fmt.Println(ip)
 		}
 	}
 }
