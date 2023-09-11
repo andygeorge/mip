@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	ipVs := []uint{4}
+	ipVs := []uint{4, 6}
 
 	for _, ipV := range ipVs {
 		externalipConsensus := externalip.DefaultConsensus(nil, nil)
