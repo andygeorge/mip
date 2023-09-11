@@ -19,7 +19,3 @@ func main() {
 		}
 	}
 }
-
-func errorHandler(err error) {
-	panic(err)
-}
