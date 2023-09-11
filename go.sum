@@ -1,2 +1,2 @@
-github.com/andygeorge/go-external-ip v0.0.0-20230911143547-b4ce202fda09 h1:R0JH3fAiqsR2hiz5ljK+NqLcVRzYbpDp02acSGhsIXo=
-github.com/andygeorge/go-external-ip v0.0.0-20230911143547-b4ce202fda09/go.mod h1:OY9rFecezgCMNBXzdATgr7UH3O+Xfaq9Ms2Mpp8l4D4=
+github.com/andygeorge/go-external-ip v0.0.1 h1:c1OLX6xLTPSEhzKZqoo7FhUoEXFprj4Cg2z5/0OgmoE=
+github.com/andygeorge/go-external-ip v0.0.1/go.mod h1:OY9rFecezgCMNBXzdATgr7UH3O+Xfaq9Ms2Mpp8l4D4=
