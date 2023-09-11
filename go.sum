@@ -1,2 +1,2 @@
-github.com/glendc/go-external-ip v0.1.0 h1:iX3xQ2Q26atAmLTbd++nUce2P5ht5P4uD4V7caSY/xg=
-github.com/glendc/go-external-ip v0.1.0/go.mod h1:CNx312s2FLAJoWNdJWZ2Fpf5O4oLsMFwuYviHjS4uJE=
+github.com/andygeorge/go-external-ip v0.0.0-20230911143547-b4ce202fda09 h1:R0JH3fAiqsR2hiz5ljK+NqLcVRzYbpDp02acSGhsIXo=
+github.com/andygeorge/go-external-ip v0.0.0-20230911143547-b4ce202fda09/go.mod h1:OY9rFecezgCMNBXzdATgr7UH3O+Xfaq9Ms2Mpp8l4D4=

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	externalip "github.com/glendc/go-external-ip"
+	externalip "github.com/andygeorge/go-external-ip"
 )
 
 func main() {
