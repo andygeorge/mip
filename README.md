@@ -1,2 +1,13 @@
 # mip
-Find My IP: Finds your public IP for outbound traffic
+
+`mip` returns (if availble) the ipv4 and ipv6 public addreses for your outbound traffic.
+
+## Usage
+
+Just `mip`:
+
+```sh
+$ mip
+104.27.189.120
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+```
