@@ -1,6 +1,6 @@
 # mip
 
-`mip` returns (if availble) the ipv4 and ipv6 public addresses for your outbound traffic.
+`mip` returns (if available) the ipv4 and ipv6 public addresses for your outbound traffic.
 
 ## Usage
 
